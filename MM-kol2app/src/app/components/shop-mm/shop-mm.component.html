@@ -1,0 +1,6 @@
+<div class="card-group">
+    <p>Home</p>
+    <div *ngFor="let item of items$">
+        <app-shop-item-mm [id]="item.id" [image]="item.image" [text]="item.text" [title]="item.title" [price]="item.price"></app-shop-item-mm>
+    </div>
+</div>
