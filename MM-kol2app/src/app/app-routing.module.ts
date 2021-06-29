@@ -5,7 +5,7 @@ import { ShopMMComponent } from './components/shop-mm/shop-mm.component';
 
 const routes: Routes = [
   {
-    path: 'shop',
+    path: '',
     component: ShopMMComponent
   },
   {
